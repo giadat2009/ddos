@@ -223,7 +223,7 @@ def main():
     global proxies
     global multiple
     global mode
-    mode = str(input("Chế độ bạn muốn chọn (nhận/đầu):"))
+    mode = str(input("Chế độ bạn muốn chọn (get/head):"))
     if mode == "":
         mode = "get"
     else:
